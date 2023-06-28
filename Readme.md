@@ -39,3 +39,8 @@ RIYA BODKE
 SANKET DONGARE
 
 YASH KATOLKAR
+
+# TO RUN THE PROJECT
+```bash
+npm run dev
+```
