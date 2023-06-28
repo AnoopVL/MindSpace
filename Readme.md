@@ -44,3 +44,13 @@ YASH KATOLKAR
 ```bash
 npm run dev
 ```
+# SCREENSHOTS
+
+![Screenshot (49)](https://github.com/AnoopVL/MindSpace/assets/104163631/9ac45688-7e07-439c-865f-ac8b470f8c5a)
+![Screenshot (45)](https://github.com/AnoopVL/MindSpace/assets/104163631/230f2011-a16b-49d5-90a8-4e6063bb4956)
+![Screenshot (46)](https://github.com/AnoopVL/MindSpace/assets/104163631/32969c84-5a3d-4070-92e7-abb9e622d6a6)
+![Screenshot (47)](https://github.com/AnoopVL/MindSpace/assets/104163631/70c8b468-13de-48a7-9b5a-6763700bdd03)
+![Screenshot (48)](https://github.com/AnoopVL/MindSpace/assets/104163631/2c02ef35-3664-4c03-a338-c590bb01b423)
+
+
+
