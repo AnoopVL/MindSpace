@@ -1,0 +1,402 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #92b2c7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  height: 70px;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#logo img {
+  width: 352px;
+  height: 368px;
+}
+
+#navcontents {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navlist {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.navlist li.one {
+  color: #21343f;
+  margin: 10px;
+  padding: 10px;
+  transition: 0.5s ease;
+  align-self: center;
+}
+
+button {
+  width: 174px;
+  padding: 6px;
+  background-color: #2f5770;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  font-weight: 1000;
+  font-size: 125%;
+  margin: 8px;
+}
+
+button:hover {
+  background-color: #21343f;
+  cursor: pointer;
+}
+
+#backgroung_img img {
+  height: 600px;
+  width: 1519px;
+  animation: trans 3s;
+  block-size: 100%;
+}
+
+#two h2 {
+  color: #2f5770;
+  position: relative;
+  font-size: 41px;
+  text-align: center;
+  font-family: "Crimson Text", serif;
+}
+
+#two h3 {
+  color: #7199b4;
+  position: relative;
+  font-size: 26px;
+  text-align: center;
+}
+
+#container {
+  transition: all 1s;
+  top: -200px;
+}
+
+#container:hover {
+  transform: scale(1.1);
+}
+
+#box1 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  float: left;
+  top: -2px;
+}
+
+#box2 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  float: left;
+  border-left: 2px solid #92b2c7;
+  height: 115.87;
+  top: -2px;
+}
+
+#box3 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-left: 2px solid #92b2c7;
+  height: 167.87.87px;
+}
+
+#box1 img {
+  width: 70px;
+  height: 70px;
+  margin: 27px;
+}
+
+#box2 img {
+  width: 70px;
+  height: 70px;
+  margin: 26px;
+}
+
+#box3 img {
+  width: 70px;
+  height: 70px;
+  margin: 26px;
+}
+
+#box3 h2 {
+  font-size: 36px;
+  width: 131px;
+  margin: 0px;
+  color: #2f5770;
+}
+
+#box2 h2 {
+  font-size: 36px;
+  width: 78px;
+  margin: 0px;
+  color: #2f5770;
+}
+
+#box1 h2 {
+  font-size: 36px;
+  width: 133px;
+  margin: 0px;
+  color: #2f5770;
+}
+
+#box1 p {
+  margin: 10px;
+  width: 178px;
+  text-align: center;
+}
+
+#box2 p {
+  margin: 10px;
+  width: 128px;
+  text-align: center;
+}
+
+#box3 p {
+  margin: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+#about {
+  background-color: #2f5770;
+  color: white;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  top: 32px;
+  transition: all 1s;
+}
+
+#about:hover {
+  transform: scale(1.1);
+}
+
+#about h1 {
+  margin: 20px;
+}
+
+#about p {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: -11px;
+  margin-bottom: 60px;
+  font-size: 20px;
+}
+
+#about span.butt {
+  width: 174px;
+  padding: 12px;
+  background-color: #2f5770;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid white;
+  font-weight: 1000;
+  font-size: 125%;
+  top: -20px;
+  transition: all 0.3s ease-in 0s;
+}
+
+#about span.butt:hover {
+  background-color: #92b2c7;
+  color: #2f5770;
+}
+
+#namaste {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  float: left;
+  top: 100px;
+}
+
+#namaste h2 {
+  color: #7199b4;
+  font-size: 46px;
+  margin: 110px;
+  width: 530px;
+  font-family: "Playfair Display", serif;
+  line-height: 47px;
+  position: relative;
+  right: -53px;
+}
+
+#namaste p {
+  color: #2f5770;
+  font-size: 22px;
+  position: relative;
+  margin: -40px;
+  width: 305px;
+  top: -34px;
+  left: -57px;
+  font-family: "Mukta", sans-serif;
+  line-height: 25px;
+}
+
+#namastepic img {
+  position: relative;
+  right: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 450px;
+  top: -53px;
+}
+
+#offer {
+  background-color: #e8e8e8;
+  color: #7199b4;
+  padding: 30px;
+  text-align: center;
+  transition: all 1s;
+  position: relative;
+  top: -25px;
+}
+
+#offer:hover {
+  transform: scale(1.1);
+}
+
+#offer h1 {
+  color: #2f5770;
+  margin: 20px;
+}
+
+#offer p {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: -11px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #2f5770;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* position: sticky; */
+  height: 70px;
+}
+
+#lastlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#lastlogo img {
+  margin: 6px;
+  width: 28px px;
+  height: 28px;
+}
+
+#lastlogo img.india {
+  transition: all;
+  width: 97px;
+  height: 90px;
+}
+
+#lastlogo img.india:hover {
+  transform: scale(1.1);
+}
+
+#lastlogo img.fb {
+  transition: all;
+}
+
+#lastlogo img.fb:hover {
+  transform: scale(1.1);
+}
+
+#lastlogo img.mail {
+  transition: all;
+}
+
+#lastlogo img.mail:hover {
+  transform: scale(1.1);
+}
+
+#lastlogo img.insta {
+  transition: all;
+}
+
+#lastlogo img.insta:hover {
+  transform: scale(1.1);
+}
+
+#lastlogo img.twitter {
+  transition: all;
+}
+
+#lastlogo img.twitter:hover {
+  transform: scale(1.1);
+}
+
+#footcontents {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footactivities {
+  display: flex;
+  cursor: pointer;
+  list-style: none;
+}
+
+.footactivities li {
+  margin: 10px;
+  padding: 10px;
+  transition: 0.5s ease;
+  align-self: center;
+}
+
+.footactivities li a {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  text-decoration: underline;
+}

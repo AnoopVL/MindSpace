@@ -1,0 +1,274 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./scripts/home.js" />
+    <title>MINDSPACE</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div id="logo">
+        <img src="./images/MINDSPACELOGO.png" alt="" />
+      </div>
+      <div id="navcontents">
+        <ul class="navlist">
+          <li class="one">
+            <a href="knowmore">WHO WE ARE</a>
+          </li>
+          <li class="one">
+            <a href="#offer">WHAT WE OFFER</a>
+          </li>
+          <!-- <li>
+                    <form action="https://www.google.com" class="btn">
+                        <input type="submit" value="SIGN IN">
+                    </form>
+                </li> -->
+          <a href="quotes" class="cta"><button>QUOTES</button></a>
+          <a href="login" class="cta"><button>SIGN IN</button></a>
+        </ul>
+      </div>
+    </nav>
+    <div id="backgroung_img">
+      <img src="./images/main1.png" alt="" />
+    </div>
+    <div id="two">
+      <h2>THE MOST PREFERRED AND TRUSTED</h2>
+      <h3>A one stop solution to tackle all your mental problems.</h3>
+    </div>
+    <section id="container">
+      <div id="box1" class="box">
+        <img src="./images/people.png" alt="" />
+        <h2>100,000+</h2>
+        <p>No. of people using mindspace to interact with each other</p>
+      </div>
+      <div id="box2" class="box">
+        <img src="./images/influencer.png" alt="" />
+        <h2>3000+</h2>
+        <p>Verified and trusted Influencers to guide the users</p>
+      </div>
+      <div id="box3" class="box">
+        <img src="./images/vc.png" alt="" />
+        <h2>425,000+</h2>
+        <p>No. of successful live sessions given</p>
+      </div>
+    </section>
+    <div id="about">
+      <h1>WHO WE ARE</h1>
+      <p>
+        As a team, we are very excited about our new project: a social media
+        platform designed specifically for mental health support. With the rise
+        of social media usage and its impact on mental health, we believe that
+        creating a platform that prioritizes mental health and well-being is
+        crucial. We believe that mental health is an essential part of overall
+        health and wellbeing, and it should be given the same importance as
+        physical health. Through our platform, we hope to break down the stigma
+        surrounding mental health by providing a supportive and inclusive
+        community. We are thrilled to see the impact our platform can have on
+        individuals' mental health and wellbeing, and we invite everyone to join
+        us on this journey. Together, we can create a world where mental health
+        is given the importance it deserves, and individuals feel supported and
+        connected.
+      </p>
+      <!-- <form action="knowmore.html">
+            <input type="submit" value="LEAR MORE ABOUT US">
+        </form> -->
+      <span class="butt" id="button" onclick="hre">LEARN MORE ABOUT US</span>
+
+      <script>
+        document .getElementById("button") .addEventListener("click", function
+        () { window.location.href = "knowmore"; });
+      </script>
+    </div>
+    <div id="namaste">
+      <h2>Let's talk about the most un-talked yet the most important issue</h2>
+      <p>Remember, you are not alone we are with you!</p>
+    </div>
+    <div id="namastepic">
+      <img src="./images/namaste.png" alt="" />
+    </div>
+    <div id="offer">
+      <h1>WHAT WE OFFER</h1>
+      <p>
+        Our goal is to create a safe and inclusive space where individuals can
+        connect with others who are experiencing similar mental health
+        challenges. We want to offer resources and support to those who may feel
+        isolated or alone in their struggles. The platform will include features
+        such as support groups, peer-to-peer messaging, and mental health
+        resources. We also plan to partner with mental health professionals to
+        provide expert advice and support. As we continue to develop and refine
+        our platform, we are constantly keeping the needs and experiences of our
+        users in mind. We believe that by creating a space that prioritizes
+        mental health, we can help individuals on their journey towards healing
+        and recovery.
+      </p>
+    </div>
+    <footer class="footer">
+      <div id="lastlogo">
+        <img src="./images/india.png" alt="" class="india" />
+        <img src="./images/fb.png" alt="" class="fb" />
+        <img src="./images/insta.png" alt="" class="insta" />
+        <img src="./images/mail.png" alt="" class="mail" />
+        <img src="./images/twitter.png" alt="" class="twitter" />
+      </div>
+      <div id="footcontents">
+        <ul class="footactivities">
+          <li class="foot">
+            <a href="last">Copyright © 2023 Mindspace. All rights reserved.
+              Privacy / Terms of Use / Cookie preferences / Do not sell or share
+              my personal information
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
+
+{{!-- <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./scripts/home.js" />
+    <title>MINDSPACE</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div id="logo">
+        {{! <img src="./images/MINDSPACELOGO" alt="" /> }}
+        <img src="./images/./images/MINDSPACELOGO.png" alt="" />
+      </div>
+      <div id="navcontents">
+        <ul class="navlist">
+          <li>
+            <a href="knowmore">WHO WE ARE</a>
+          </li>
+          <li>
+            <a href="#offer">WHAT WE OFFER</a>
+          </li>
+          <li>
+            {{! <form action="https://www.google.com" class="btn"> }}
+            <a href="login"> <input type="submit" value="SIGN IN" /></a>
+            {{! </form> }}
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="backgroung_img">
+      {{! <img src="./images/main1" alt="" /> }}
+      <img src="./images/./images/main1.png" alt="" />
+    </div>
+    <div id="two">
+      <h2> THE MOST PREFERRED AND TRUSTED</h2>
+      <h3>A one stop solution to tackle all your mental problems.</h3>
+    </div>
+    <section id="container">
+      <div id="box1" class="box">
+        {{! <img src="./images/people" alt="" /> }}
+        <img src="./images/./images/people.png" alt="" />
+        <h2>100,000+</h2>
+        <p>No. of people using mindspace to interact with each other</p>
+      </div>
+      <div id="box2" class="box">
+        {{! <img src="./images/influencer" alt="" /> }}
+        <img src="./images/./images/influencer.png" alt="" />
+        <h2>3000+</h2>
+        <p>Verified and trusted Influencers to guide the users</p>
+      </div>
+      <div id="box3" class="box">
+        {{! <img src="./images/vc" alt="" /> }}
+        <img src="./images/./images/vc.png" alt="" />
+        <h2>425,000+</h2>
+        <p>No. of successful live sessions given</p>
+      </div>
+    </section>
+    <div id="about">
+      <h1>WHO WE ARE</h1>
+      <p>As a team, we are very excited about our new project: a social media
+        platform designed specifically for mental health support. With the rise
+        of social media usage and its impact on mental health, we believe that
+        creating a platform that prioritizes mental health and well-being is
+        crucial. We believe that mental health is an essential part of overall
+        health and wellbeing, and it should be given the same importance as
+        physical health. Through our platform, we hope to break down the stigma
+        surrounding mental health by providing a supportive and inclusive
+        community. We are thrilled to see the impact our platform can have on
+        individuals' mental health and wellbeing, and we invite everyone to join
+        us on this journey. Together, we can create a world where mental health
+        is given the importance it deserves, and individuals feel supported and
+        connected.</p>
+      <!-- <form action="knowmore.html">
+            <input type="submit" value="LEAR MORE ABOUT US">
+        </form> -->
+      <span class="butt" id="butto" onclick="hre"><a href="knowmore">LEARN MORE
+          ABOUT US</a>
+      </span>
+
+    </div>
+    <div id="namaste">
+      <h2>Let's talk about the most un-talked yet the most important issue</h2>
+      <p>Remember, you are not alone we are with you!</p>
+    </div>
+    <div id="namastepic">
+      {{! <img src="./images/namaste" alt="" /> }}
+      <img src="./images/./images/namaste.png" alt="" />
+    </div>
+    <div id="offer">
+      <h1>WHAT WE OFFER</h1>
+      <p>Our goal is to create a safe and inclusive space where individuals can
+        connect with others who are experiencing similar mental health
+        challenges. We want to offer resources and support to those who may feel
+        isolated or alone in their struggles. The platform will include features
+        such as support groups, peer-to-peer messaging, and mental health
+        resources. We also plan to partner with mental health professionals to
+        provide expert advice and support. As we continue to develop and refine
+        our platform, we are constantly keeping the needs and experiences of our
+        users in mind. We believe that by creating a space that prioritizes
+        mental health, we can help individuals on their journey towards healing
+        and recovery.
+      </p>
+    </div>
+    <footer class="footer">
+      <div id="lastlogo">
+        {{! <img src="./images/india" alt="" class="india" /> }}
+        <img src="./images/./images/india.png" alt="" class="india" />
+        {{! <img src="./images/fb" alt="" class="fb" /> }}
+        <img src="./images/./images/fb.png" alt="" class="fb" />
+        {{! <img src="./images/insta" alt="" class="insta" /> }}
+        <img src="./images/./images/insta.png" alt="" class="insta" />
+        {{! <img src="./images/mail" alt="" class="mail" /> }}
+        <img src="./images/./images/mail.png" alt="" class="mail" />
+        {{! <img src="./images/twitter" alt="" class="twitter" /> }}
+        <img src="./images/./images/twitter.png" alt="" class="twitter" />
+
+      </div>
+      <div id="footcontents">
+        <ul class="footactivities">
+          <li class="foot"><a href="last">Copyright © 2023 Mindspace. All rights
+              reserved. Privacy / Terms of Use / Cookie preferences / Do not
+              sell or share my personal information
+            </a></li>
+
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+</html> --}}
+
+{{! <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Home page</h1>
+    <a href="login">login here </a>
+  </body>
+</html> }}
